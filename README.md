@@ -1,8 +1,9 @@
-# This is an example app reproducing "Maximum update depth exceeded" React error in react-burger-menu 2.6.6
+# repro-react-burger-menu-2.6.6
 
----
 
-Reported as #xyz on Github
+This is an example app reproducing "Maximum update depth exceeded" React error in [react-burger-menu](https://github.com/negomi/react-burger-menu) 2.6.6.
+
+Reported as [react-burger-menu/issues/316](https://github.com/negomi/react-burger-menu/issues/316) on Github.
 
 ---
 
