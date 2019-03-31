@@ -1,0 +1,15 @@
+{
+  "quiet": true,
+  "delay": 0.1,
+  "watch": [
+    ".prettierrc",
+    "babel.config.js",
+    "eslintrc.js",
+    "templates/**",
+    "webpack.config.js",
+    "yarn.lock"
+  ],
+  "ext": "js,jsx,ts,tsx,flow,coffee,css,scss,sass,styl,html,d,txt,yml,sh,py,json,ini,conf,cfg",
+  "ignore": ["node_modules", "dist"],
+  "exec": "reset; rm -rf dist/; NODE_ENV=development BABEL_ENV=development webpack-dev-server; true"
+}
